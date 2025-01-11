@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <button id="show-btn">보이기</button>
+
+        <p id="hidden-text" style="display: none">이제 보입니다!</p>
+
+        <script>
+            // JavaScript를 사용해 버튼을 클릭하면 id가 hidden-text인 요소가 화면에 표시되도록 구현하세요.
+
+            const button = document.querySelector("#show-btn");
+            const p = document.querySelector("#hidden-text");
+
+            button.addEventListener("click", function () {
+                p.style.display = "block";
+            });
+        </script>
+    </body>
+</html>

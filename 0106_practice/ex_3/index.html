@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <img class="profile" src="https://via.placeholder.com/100" alt="이미지" />
+
+        <script>
+            //JavaScript를 사용해 class가 profile인 요소를 선택하고, 이미지 URL을 https://via.placeholder.com/200으로 변경하세요.
+
+            document.querySelector(".profile").src = "https://via.placeholder.com/200";
+            document.getElementsByClassName("profile")[0].src = "https://via.placeholder.com/200";
+
+            const img = document.querySelector(".profile");
+            img.src = "https://via.placeholder.com/200";
+        </script>
+    </body>
+</html>

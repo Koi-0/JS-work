@@ -1,0 +1,10 @@
+.modal {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.hide {
+    display: none;
+    /* display: none은 안보이게 하기임 */
+}
